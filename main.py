@@ -39,3 +39,5 @@ alpha5.assign_exercise(morphin_time, ninety_four)
 alpha5.assign_exercise(calling_zords, ninety_four)
 rita.assign_exercise(puddy_buddy, ninety_five)
 rita.assign_exercise(morphin_time, ninety_five)
+
+print(tommy.last_name)

@@ -1,13 +1,13 @@
 class Cohort():
-    def __init__(self, name):
-        self.name = name
-        self.students = list()
-        self.instructors = list()
+    def __init__(self, Name):
+        self.Name = Name
+        self.Students = list()
+        self.Instructors = list()
 
-    def add_students(self, student):
-        self.students.append(student)
-        student.cohort = self.name
+    def add_students(self, Student):
+        self.Students.append(Student)
+        Student.Cohort = self.Name
 
-    def add_instructors(self, instructor):
-        self.instructors.append(instructor)
-        instructor.cohort = self.name
+    def add_instructors(self, Instructor):
+        self.Instructors.append(Instructor)
+        Instructor.Cohort = self.Name
